@@ -1,0 +1,62 @@
+
+// @import "../../assets/fonts/gotham-rounded/GothamRoundedBold_21016.ttf";
+// @import "../../assets/fonts/gotham-rounded/GothamRounded-BoldItalic.otf";
+// @import "../../assets/fonts/gotham-rounded/GothamRounded-BookItalic.otf";
+// @import "../../assets/fonts/gotham-rounded/GothamRounded-Light.otf";
+// @import "../../assets/fonts/gotham-rounded/GothamRounded-LightItalic.otf";
+// @import "../../assets/fonts/gotham-rounded/GothamRounded-Medium.otf";
+// @import "../../assets/fonts/gotham-rounded/GothamRounded-MediumItalic.otf";
+
+
+// @font-face {
+//     font-family: "GothamBold";
+//     src: local("GothamBold"), url("../../assets/fonts/gotham-rounded/GothamRounded-Bold.otf") format("opentype");
+//     font-weight: bold;
+// }
+
+// @font-face {
+//     font-family: "GothamBoldItalic";
+//     src: local("GothamBoldItalic"), url("../../assets/fonts/gotham-rounded/GothamRounded-BoldItalic.otf") format("opentype");
+//     font-weight: bold;
+// }
+
+// @font-face {
+//     font-family: "GothamBookItalic";
+//     src: local("GothamBookItalic"), url("../../assets/fonts/gotham-rounded/GothamRounded-BookItalic.otf") format("opentype");
+//     font-weight: bold;
+// }
+
+// @font-face {
+//     font-family: "GothamLight";
+//     src: local("GothamLight"), url("../../assets/fonts/gotham-rounded/GothamRounded-Light.otf") format("opentype");
+//     font-weight: lighter;
+// }
+
+// @font-face {
+//     font-family: "GothamLightItalic";
+//     src: local("GothamLightItalic"), url("../../assets/fonts/gotham-rounded/GothamRounded-LightItalic.otf") format("opentype");
+//     font-weight: lighter;
+// }
+
+// @font-face {
+//     font-family: "GothamMedium";
+//     src: local("GothamMedium"), url("../../assets/fonts/gotham-rounded/GothamRounded-Medium.otf") format("opentype");
+//     font-weight: normal;
+// }
+
+// @font-face {
+//     font-family: "GothamMediumItalic";
+//     src: local("GothamMediumItalic"), url("../../assets/fonts/gotham-rounded/GothamRounded-MediumItalic.otf") format("opentype");
+//     font-weight: normal;
+// }
+
+@import url('http://fonts.cdnfonts.com/css/gotham-rounded');
+                
+
+
+$background-color: #FFFFFF;
+$link-color: #020203;
+$font-stack: 'Gotham Rounded', sans-serif;
+$primary-color: #009FDF;
+$secondary-color: #020203;
+$navbar-text-color: #020203;

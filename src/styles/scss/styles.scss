@@ -1,0 +1,56 @@
+@import 'variables';
+@import 'mixins';
+
+
+/****************************************************************/
+/* CUSTOMIZED BOOTSTRAP DEFAULTS*/
+/***************************************************************/
+
+$body-bg: $background-color;
+$font-family-sans-serif: $font-stack;
+$primary: $primary-color;
+$secondary: $secondary-color;
+
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+/**************************************************************/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body { 
+    font-family: $font-stack !important;
+    background-color: $background-color;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}

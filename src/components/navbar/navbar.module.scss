@@ -1,0 +1,122 @@
+@import '../../styles/scss/variables';
+@import '../../styles/scss/mixins';
+
+.header{
+    display: flex;
+    flex-grow: 1;
+    height: 5.75rem;
+    min-height: 5.75rem;
+    color: $navbar-text-color;
+    
+    .header__navbar{
+        min-height: 100%;
+        justify-content: center;
+        background-color: $background-color;
+        // box-shadow: none;
+
+
+        .header__toolbar{
+            display: flex;
+            justify-content: flex-start;
+            padding: 0;
+
+            .header__toolbar___logo{
+                min-width: 25%;
+
+                img{
+                    margin-left: 6rem;
+                    min-width: 4rem;
+                    min-height: 4rem;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .header__toolbar___menus{
+            display: flex;
+            justify-content: center;
+            min-width: 50%;
+
+            ul{
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                min-width: 50%;
+                padding: 0;
+                margin: 0;
+
+                li {
+                    cursor: pointer;
+                    margin: 0 auto;
+                    position: relative;
+                    text-align: center;
+
+                    p{
+                        font-size: 0.875rem;
+                        line-height: 150%;
+                        font-weight: bold;
+                        transition: all .2s ease-in-out;
+                        color: $navbar-text-color;
+
+                        &:hover, &:focus, &:active{
+                            font-weight: normal;
+                        }
+
+                        &:hover::after{
+                            transform: scale(1);
+                            transform-origin: bottom center;
+                        }
+
+                        &:after{
+                            content: '';
+                            position: absolute;
+                            width: 100%;
+                            transform: scaleX(0);
+                            height: 2px;
+                            bottom: 0;
+                            left: 0;
+                            background-color: $primary-color;
+                            transform-origin: bottom right;
+                            transition: transform 0.25s ease-out;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .header__toolbar___buttons{
+            display: flex;
+            justify-content: center;
+            min-width: 25%;
+
+            button{
+                margin-right: 6.063rem;
+                color: #fff;
+                text-transform: capitalize;
+                border-radius: 5.563rem;
+                width: 10rem;
+                min-width: 10rem;
+                min-height: 2.75rem;
+                height: 2.75rem;
+            }
+        }
+
+    }
+
+    @media (min-width: 600px){
+        
+    }
+
+    @media (min-width: 900px){
+        
+    }
+
+    @media (min-width: 1200px){
+        
+    }
+
+    @media (min-width: 1536px){
+        
+    }
+}
