@@ -4,9 +4,13 @@
 .header{
     display: flex;
     flex-grow: 1;
-    height: 5.75rem;
-    min-height: 5.75rem;
+    height: 3.75rem;
     color: $navbar-text-color;
+
+    @media (min-width: 900px){
+        min-height: 5.75rem;
+        height: 5.75rem;
+    }
     
     .header__navbar{
         min-height: 100%;
@@ -17,17 +21,28 @@
 
         .header__toolbar{
             display: flex;
-            justify-content: flex-start;
-            padding: 0;
+            justify-content: space-between;
+
+            @media (min-width: 900px){
+                display: flex;
+                justify-content: flex-start;
+                padding: 0;
+            }
 
             .header__toolbar___logo{
                 min-width: 25%;
 
                 img{
-                    margin-left: 6rem;
-                    min-width: 4rem;
-                    min-height: 4rem;
+                    // margin-left: 6rem;
+                    width: 3rem;
+                    height: 3rem;
                     cursor: pointer;
+
+                    @media (min-width: 900px){
+                        margin-left: 6rem;
+                        min-width: 4rem;
+                        min-height: 4rem;
+                    }
                 }
             }
         }
@@ -102,7 +117,9 @@
             }
         }
 
+
     }
+
 
     @media (min-width: 600px){
         
@@ -118,5 +135,15 @@
 
     @media (min-width: 1536px){
         
+    }
+}
+
+.sideMenu__list{
+    margin-top: 50%;
+
+    .sideMenu__item{
+        font-size: 0.875rem;
+        line-height: 150%;
+        font-weight: bold;
     }
 }
